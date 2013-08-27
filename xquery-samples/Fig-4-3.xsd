@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+	targetNamespace="http://www.example.org/catalog"
+	xmlns:tns="http://www.example.org/catalog"
+	elementFormDefault="qualified">
+	<element name="catalog">
+		<complexType>
+			<sequence>
+				<element name="content" type="tns:contentType" 
+					minOccurs="1"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+	<complexType name="contentType">
+		<sequence>
+			<element name="title" type="string" />
+			<element name="pubDate" type="date" />
+			<element name="genre" type="tns:genreType" 
+				minOccurs="0"
+				maxOccurs="unbounded" />
+			<element name="info">
+				<complexType>
+					<choice>
+						<element name="film">
+							<complexType>
+								<sequence>
+									<element name="director" type="string" 
+										maxOccurs="unbounded"/>
+								</sequence>
+							</complexType>
+						</element>
+						<element name="book">
+							<complexType>
+								<sequence>
+									<element name="author" type="string" 
+										maxOccurs="unbounded"/>
+								</sequence>
+							</complexType>
+						</element>
+						<element name="radio">
+							<complexType>
+								<sequence>
+									<element name="director" type="string" 
+										maxOccurs="unbounded"/>
+								</sequence>
+							</complexType>
+						</element>
+					</choice>
+				</complexType>
+			</element>
+		</sequence>
+		<attribute name="category" type="string" use="required" />
+	</complexType>
+
+
+	<simpleType name="bookGenres">
+		<restriction base="string">
+			<enumeration value="Drama" />
+			<enumeration value="Art" />
+			<enumeration value="Mystery" />
+			<enumeration value="History" />
+		</restriction>
+	</simpleType>
+	<simpleType name="filmGenres">
+		<restriction base="string">
+			<enumeration value="Drama" />
+			<enumeration value="SciFi" />
+			<enumeration value="Comedy" />
+		</restriction>
+	</simpleType>
+	<simpleType name="musicGenres">
+		<restriction base="string">
+			<enumeration value="Blues" />
+			<enumeration value="Classical" />
+			<enumeration value="Rock and Roll" />
+		</restriction>
+	</simpleType>
+	<simpleType name="genreType">
+		<union memberTypes="tns:bookGenres
+							tns:filmGenres
+							tns:musicGenres" />
+	</simpleType>
+
+</schema>

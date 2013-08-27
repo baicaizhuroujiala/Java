@@ -1,0 +1,2 @@
+Patient(1){name=Joe.Bloggs,birthDate=3/20/95 7:00 PM,patientId=12345678}
+Patient(1){name=Joe.Bloggs,birthDate=3/20/95 7:00 PM,patientId=12345678}

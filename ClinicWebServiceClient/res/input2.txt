@@ -1,0 +1,8 @@
+patient siteInfo
+patient addPatient Joe.Bloggs 17 1995-03-21 12345678
+patient getPatientByPatId 12345678
+
+patient getPatientByDbId 1
+patient getPatientByPatId 12345678
+patient getPatientsByNameDob Joe.Bloggs 1995-03-21
+patient deletePatient Joe.Bloggs 1

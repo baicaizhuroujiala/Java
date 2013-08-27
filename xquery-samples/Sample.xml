@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reviewers xmlns="http://www.example.org/xquery/result">
+	<info>
+		<reviewer>A Reviewer</reviewer>
+		<reviews>
+			<review>
+				<title>Lawrence of Arabia</title>
+				<pubDate>1963-01-30</pubDate>
+				<eval>When you pan and scan LOR, you lose the desert.</eval>
+			</review>
+			<review>
+				<title>The Illuminatus! Trilogy</title>
+				<pubDate>1983-12-01</pubDate>
+				<eval>I have seen the fnords.</eval>
+			</review>
+		</reviews>
+	</info>
+	<info>
+		<reviewer>M. Dwyer</reviewer>
+		<reviews>
+			<review>
+				<title>Lawrence of Arabia</title>
+				<pubDate>1963-01-30</pubDate>
+				<eval>Taim in ngra leis an priomhscannan seo.</eval>
+			</review>
+		</reviews>
+	</info>
+	<info>
+		<reviewer>Art Student</reviewer>
+		<reviews>
+			<review>
+				<title>Janson’s History of Art</title>
+				<pubDate>2006-02-16</pubDate>
+				<eval>A fun textbook.</eval>
+			</review>
+		</reviews>
+	</info>
+	<info>
+		<reviewer>Pauline Kael</reviewer>
+		<reviews>
+			<review>
+				<title>Cavalcade</title>
+				<pubDate>1933-04-15</pubDate>
+				<eval>An orgy of British self-congratulation.</eval>
+			</review>
+		</reviews>
+	</info>
+</reviewers>

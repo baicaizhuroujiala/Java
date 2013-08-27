@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<r:reviews xmlns:r="http://www.example.org/review"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/review Fig-4-12.xsd">
+	<r:review lang="en">
+		<r:title>Lawrence of Arabia</r:title>
+		<r:pubDate>1963-01-30</r:pubDate>
+		<r:reviewer>A Reviewer</r:reviewer>
+		<r:eval>When you pan and scan LOR, you lose the desert.</r:eval>
+	</r:review>
+	<r:review lang="ga">
+		<r:title>Lawrence of Arabia</r:title>
+		<r:pubDate>1963-01-30</r:pubDate>
+		<r:reviewer>M. Dwyer</r:reviewer>
+		<r:eval>Taim in ngra leis an priomhscannan seo.</r:eval>
+	</r:review>
+	<r:review lang="en">
+		<r:title>Janson’s History of Art</r:title>
+		<r:pubDate>2006-02-16</r:pubDate>
+		<r:reviewer>Art Student</r:reviewer>
+		<r:eval>A fun textbook.</r:eval>
+	</r:review>
+	<r:review lang="en">
+		<r:title>Cavalcade</r:title>
+		<r:pubDate>1933-04-15</r:pubDate>
+		<r:reviewer>Pauline Kael</r:reviewer>
+		<r:eval>An orgy of British self-congratulation.</r:eval>
+	</r:review>
+	<r:review lang="en">
+		<r:title>The Illuminatus! Trilogy</r:title>
+		<r:pubDate>1983-12-01</r:pubDate>
+		<r:reviewer>A Reviewer</r:reviewer>
+		<r:eval>I have seen the fnords.</r:eval>
+	</r:review>
+</r:reviews>

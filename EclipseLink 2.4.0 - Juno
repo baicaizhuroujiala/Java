@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<eclipse-userlibraries version="2">
+    <library name="EclipseLink 2.4.0 - Juno" systemlibrary="false">
+        <archive javadoc="jar:file://Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/eclipselink-javadocs.zip!/eclipselink/javadocs/" path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/eclipselink.jar" source="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/eclipselink-src.zip"/>
+        <archive path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/jpa/eclipselink-jpa-modelgen_2.4.0.v20120608-r11652.jar"/>
+        <archive path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/jpa/javax.persistence_2.0.4.v201112161009.jar"/>
+        <archive path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/jpa/org.eclipse.persistence.jpars_2.4.0.v20120608-r11652.jar"/>
+        <archive path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/moxy/com.sun.tools.xjc_2.2.0.jar"/>
+        <archive path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/moxy/com.sun.xml.bind_2.2.0.v201004141950.jar"/>
+        <archive path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/moxy/javax.mail_1.4.0.v201005080615.jar"/>
+        <archive path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/moxy/javax.xml.bind_2.2.0.v201105210648.jar"/>
+        <archive path="/Users/Luoxi/Documents/workspace/libraries/EclipseLink 2.4.0 - Juno/eclipselink/jlib/moxy/javax.xml.stream_1.0.1.v201004272200.jar"/>
+    </library>
+</eclipse-userlibraries>

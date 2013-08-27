@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema targetNamespace="http://www.example.org/review"
+	xmlns:tns="http://www.example.org/review" 
+	xmlns="http://www.w3.org/2001/XMLSchema"
+	elementFormDefault="qualified">
+	<element name="reviews">
+		<complexType>
+			<sequence>
+				<element name="review" type="tns:reviewType" 
+					minOccurs="0"
+					maxOccurs="unbounded" />
+			</sequence>
+		</complexType>
+	</element>
+	<complexType name="reviewType">
+		<sequence>
+			<element name="title" type="string" />
+			<element name="pubDate" type="date" />
+			<element name="reviewer" type="string" />
+			<element name="eval" type="string" />
+		</sequence>
+		<attribute name="lang" type="language" use="required" />
+	</complexType>
+</schema>

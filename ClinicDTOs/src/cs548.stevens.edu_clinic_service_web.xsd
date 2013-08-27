@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:ns0="http://cs548.stevens.edu/clinic/service/web" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://cs548.stevens.edu/clinic/service/web">
+   <xsd:import schemaLocation="ClinicDTO1.xsd"/>
+   <xsd:element name="provider-dto" type="providerDTO"/>
+   <xsd:element name="patient-dto" type="patientDTO"/>
+</xsd:schema>

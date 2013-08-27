@@ -1,0 +1,22 @@
+/**
+ * IPatientWebPort.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis 1.4 Apr 22, 2006 (06:55:48 PDT) WSDL2Java emitter.
+ */
+
+package edu.stevens.cs548.clinic.service.web.soap;
+
+public interface IPatientWebPort extends java.rmi.Remote {
+    public edu.stevens.cs548.clinic.service.web.soap.PatientDTO getPatientByDbId(long arg0) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientServiceExn;
+    public edu.stevens.cs548.clinic.service.web.soap.PatientDTO[] getPatientByNameDob(java.lang.String arg0, java.util.Calendar arg1) throws java.rmi.RemoteException;
+    public edu.stevens.cs548.clinic.service.web.soap.PatientDTO getPatientByPatientId(long arg0) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientServiceExn;
+    public long createPatient(java.lang.String arg0, int arg1, java.util.Calendar arg2, long arg3) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientServiceExn;
+    public void deletePatient(java.lang.String arg0, long arg1) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientServiceExn;
+    public void addDrugTreatment(long arg0, long arg1, java.lang.String arg2, java.lang.String arg3, float arg4) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientNotFoundExn, edu.stevens.cs548.clinic.service.web.soap.AddingTreatmentExn;
+    public void addSurgery(long arg0, java.lang.String arg1, java.util.Calendar arg2, long arg3) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientNotFoundExn, edu.stevens.cs548.clinic.service.web.soap.AddingTreatmentExn;
+    public void addRadiology(long arg0, java.lang.String arg1, java.util.Calendar[] arg2, long arg3) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientNotFoundExn, edu.stevens.cs548.clinic.service.web.soap.AddingTreatmentExn;
+    public edu.stevens.cs548.clinic.service.web.soap.GetTreatmentsResponseReturn[] getTreatments(long arg0, java.lang.Long[] arg1) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientServiceExn, edu.stevens.cs548.clinic.service.web.soap.TreatmentNotFoundExn, edu.stevens.cs548.clinic.service.web.soap.PatientNotFoundExn;
+    public void deleteTreatment(long arg0, long arg1) throws java.rmi.RemoteException, edu.stevens.cs548.clinic.service.web.soap.PatientServiceExn, edu.stevens.cs548.clinic.service.web.soap.TreatmentNotFoundExn, edu.stevens.cs548.clinic.service.web.soap.PatientNotFoundExn;
+    public java.lang.String siteInfo() throws java.rmi.RemoteException;
+}

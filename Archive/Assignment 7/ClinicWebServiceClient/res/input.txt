@@ -1,0 +1,2 @@
+patient getPatientByDbId 1
+patient getPatientByPatId 12345678
